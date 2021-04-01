@@ -1,5 +1,6 @@
 import React from 'react'
 import "../index.css"
+import Me from "../swhachey-pic.JPG"
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
         <div className="row g-0">
           <div className="col-md-4">
             <br />       
-            <img src="./assets/swhachey-pic.JPG" alt="..." width="150px" height="180px" className="dropshadow"/>
+            <img src={Me} alt="..." width="150px" height="180px" className="dropshadow"/>
             <br />
             <a href="https://github.com/swhachey" target="_blank" style={{color: 'black', fontWeight: 'bolder'}}>GitHub Profile</a>
             <br />

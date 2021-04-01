@@ -27,14 +27,14 @@ function Portfolio() {
 {
      title: "Password Generator",
      text: "This feature will generate a random password based on the parameters you give its prompts.",
-     image: "/assets/password_generator_image.png",
+     image: "./assets/password_generator_image.png",
      appLink: "https://github.com/swhachey/swhachey-password-generator",
      gitLink: "https://swhachey.github.io/swhachey-password-generator/"
  },
 {
      title: "Weather Forecast App",
      text: "Enter the city for which you'd like to get the daily and weekly forcast. We'll save your search in the corner to reference later.",
-     image: "/assets/weather_app_image.png",
+     image: "./assets/weather_app_image.png",
      appLink: "https://swhachey.github.io/weather-planning-app-swh/",
      gitLink: "https://github.com/swhachey/weather-planning-app-swh"
  },
