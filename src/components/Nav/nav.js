@@ -11,10 +11,14 @@ function Nav() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
+          <Link to="/">
           <a className="nav-link" aria-current="page" href="/">Home</a>
+          </Link>
         </li>
         <li className="nav-item">
+          <Link to="/portfolio">
           <a className="nav-link" href="/portfolio">Portfolio</a>
+          </Link>
         </li>
         <li className="nav-item">
           <Link to="/resume">
